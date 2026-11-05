@@ -1,0 +1,28 @@
+{
+  "required": true,
+  "refmap": "abysscore.refmap.json",
+  "package": "com.gugas749.abysscore.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "vanish.AbstractArrowVanishMixin",
+    "vanish.ContainerOpenersCounterVanishMixin",
+    "vanish.EntitySelectorVanishMixin",
+    "vanish.EntityVanishMixin",
+    "vanish.ExperienceOrbVanishMixin",
+    "vanish.ItemEntityVanishMixin",
+    "vanish.LivingEntityVanishMixin",
+    "vanish.MinecraftServerVanishMixin",
+    "vanish.PlayerAdvancementsVanishMixin",
+    "vanish.PlayerListVanishMixin",
+    "vanish.PlayerVanishMixin",
+    "vanish.ServerGamePacketListenerVanishMixin",
+    "vanish.ServerPlayerVanishMixin",
+    "vanish.ShulkerBoxBlockEntityVanishMixin"
+  ],
+  "client": [],
+  "server": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

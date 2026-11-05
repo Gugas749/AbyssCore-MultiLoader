@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "abysscore",
+  "version": "0.0.1",
+  "name": "AbyssCore",
+  "description": "",
+  "authors": [
+    "Gugas749"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+  "license": "BSD-3-Clause",
+  "icon": "abysscore.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gugas749.abysscore.Abysscore"
+    ]
+  },
+  "mixins": [
+    "abysscore.mixins.json",
+    "abysscore.fabric.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.1",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

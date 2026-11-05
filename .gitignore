@@ -1,0 +1,25 @@
+/libs/
+/run/
+CLAUDE.md
+explanation.md
+documentation.md
+/API.md
+# Project exclude paths
+/.gradle/
+/buildSrc/.gradle/
+/buildSrc/build/
+/buildSrc/build/classes/java/main/
+/buildSrc/build/groovy-dsl-plugins/output/plugin-classes/
+/buildSrc/build/groovy-dsl-plugins/output/plugin-requests-staging/
+/common/build/
+/common/build/classes/java/main/
+/forge/build/
+/forge/build/sourcesSets/main/
+/neoforge/build/
+/neoforge/build/classes/java/main/
+/.idea/
+/neoforge/run/
+/neoforge/run/logs/
+/fabric/runs/
+/fabric/build/
+/fabric/.gradle/

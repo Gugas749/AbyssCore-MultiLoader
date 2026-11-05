@@ -1,0 +1,8 @@
+v1	named	intermediary
+FIELD	com/gugas749/abysscore/mixin/vanish/ContainerOpenersCounterVanishMixin	I	openCount	field_27215
+FIELD	com/gugas749/abysscore/mixin/vanish/ExperienceOrbVanishMixin	Lnet/minecraft/world/entity/player/Player;	followingPlayer	field_6162
+FIELD	com/gugas749/abysscore/mixin/vanish/PlayerAdvancementsVanishMixin	Lnet/minecraft/server/level/ServerPlayer;	player	field_13391
+FIELD	com/gugas749/abysscore/mixin/vanish/ServerGamePacketListenerVanishMixin	Lnet/minecraft/server/level/ServerPlayer;	player	field_14140
+FIELD	com/gugas749/abysscore/mixin/vanish/ShulkerBoxBlockEntityVanishMixin	I	openCount	field_12053
+METHOD	com/gugas749/abysscore/mixin/vanish/MinecraftServerVanishMixin	()Lnet/minecraft/server/players/PlayerList;	getPlayerList	method_3760
+METHOD	com/gugas749/abysscore/mixin/vanish/ServerCommonPacketListenerVanishMixin	(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V	send	method_52391

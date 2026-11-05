@@ -1,0 +1,138 @@
+{
+  "mappings": {
+    "com/gugas749/abysscore/mixin/MixinMinecraft": {
+      "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+    },
+    "com/gugas749/abysscore/mixin/MixinTitleScreen": {
+      "init()V": "Lnet/minecraft/class_442;method_25426()V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/AbstractArrowVanishMixin": {
+      "playerTouch": "Lnet/minecraft/class_1665;method_5694(Lnet/minecraft/class_1657;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ContainerOpenersCounterVanishMixin": {
+      "decrementOpeners": "Lnet/minecraft/class_5561;method_31685(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V",
+      "getPlayersWithContainerOpen": "Lnet/minecraft/class_5561;method_56121(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)Ljava/util/List;",
+      "incrementOpeners": "Lnet/minecraft/class_5561;method_31684(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/EntitySelectorVanishMixin": {
+      "findEntities": "Lnet/minecraft/class_2300;method_9816(Lnet/minecraft/class_2168;)Ljava/util/List;",
+      "findPlayers": "Lnet/minecraft/class_2300;method_9813(Lnet/minecraft/class_2168;)Ljava/util/List;"
+    },
+    "com/gugas749/abysscore/mixin/vanish/EntityVanishMixin": {
+      "isIgnoringBlockTriggers": "Lnet/minecraft/class_1297;method_5696()Z"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ExperienceOrbVanishMixin": {
+      "playerTouch": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V",
+      "scanForEntities": "Lnet/minecraft/class_1303;method_31498()V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ItemEntityVanishMixin": {
+      "playerTouch": "Lnet/minecraft/class_1542;method_5694(Lnet/minecraft/class_1657;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/LivingEntityVanishMixin": {
+      "isPushable": "Lnet/minecraft/class_1309;method_5810()Z",
+      "pushEntities": "Lnet/minecraft/class_1309;method_6070()V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/MinecraftServerVanishMixin": {
+      "buildPlayerStatus": "Lnet/minecraft/server/MinecraftServer;method_49386()Lnet/minecraft/class_2926$class_2927;"
+    },
+    "com/gugas749/abysscore/mixin/vanish/PlayerAdvancementsVanishMixin": {
+      "award": "Lnet/minecraft/class_2985;method_12878(Lnet/minecraft/class_8779;Ljava/lang/String;)Z"
+    },
+    "com/gugas749/abysscore/mixin/vanish/PlayerListVanishMixin": {
+      "broadcast": "Lnet/minecraft/class_3324;method_14605(Lnet/minecraft/class_1657;DDDDLnet/minecraft/class_5321;Lnet/minecraft/class_2596;)V",
+      "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;Ljava/util/function/Function;Z)V": "Lnet/minecraft/class_3324;method_43512(Lnet/minecraft/class_2561;Ljava/util/function/Function;Z)V",
+      "broadcastSystemToAllExceptTeam": "Lnet/minecraft/class_3324;method_14565(Lnet/minecraft/class_1657;Lnet/minecraft/class_2561;)V",
+      "broadcastSystemToTeam": "Lnet/minecraft/class_3324;method_14564(Lnet/minecraft/class_1657;Lnet/minecraft/class_2561;)V",
+      "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/PlayerVanishMixin": {
+      "canBeSeenAsEnemy": "Lnet/minecraft/class_1657;method_33190()Z"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ServerCommonPacketListenerVanishMixin": {
+      "send(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V": "Lnet/minecraft/class_8609;method_52391(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ServerGamePacketListenerVanishMixin": {
+      "removePlayerFromWorld": "Lnet/minecraft/class_3244;method_52415()V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ServerLevelVanishMixin": {
+      "gameEvent(Lnet/minecraft/core/Holder;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/gameevent/GameEvent$Context;)V": "Lnet/minecraft/class_3218;method_32888(Lnet/minecraft/class_6880;Lnet/minecraft/class_243;Lnet/minecraft/class_5712$class_7397;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ServerPlayerVanishMixin": {
+      "broadcastToPlayer": "Lnet/minecraft/class_3222;method_5680(Lnet/minecraft/class_3222;)Z",
+      "die": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+    },
+    "com/gugas749/abysscore/mixin/vanish/ShulkerBoxBlockEntityVanishMixin": {
+      "startOpen": "Lnet/minecraft/class_2627;method_5435(Lnet/minecraft/class_1657;)V",
+      "stopOpen": "Lnet/minecraft/class_2627;method_5432(Lnet/minecraft/class_1657;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/gugas749/abysscore/mixin/MixinMinecraft": {
+        "<init>": "Lnet/minecraft/class_310;<init>(Lnet/minecraft/class_542;)V"
+      },
+      "com/gugas749/abysscore/mixin/MixinTitleScreen": {
+        "init()V": "Lnet/minecraft/class_442;method_25426()V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/AbstractArrowVanishMixin": {
+        "playerTouch": "Lnet/minecraft/class_1665;method_5694(Lnet/minecraft/class_1657;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ContainerOpenersCounterVanishMixin": {
+        "decrementOpeners": "Lnet/minecraft/class_5561;method_31685(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V",
+        "getPlayersWithContainerOpen": "Lnet/minecraft/class_5561;method_56121(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;)Ljava/util/List;",
+        "incrementOpeners": "Lnet/minecraft/class_5561;method_31684(Lnet/minecraft/class_1657;Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/EntitySelectorVanishMixin": {
+        "findEntities": "Lnet/minecraft/class_2300;method_9816(Lnet/minecraft/class_2168;)Ljava/util/List;",
+        "findPlayers": "Lnet/minecraft/class_2300;method_9813(Lnet/minecraft/class_2168;)Ljava/util/List;"
+      },
+      "com/gugas749/abysscore/mixin/vanish/EntityVanishMixin": {
+        "isIgnoringBlockTriggers": "Lnet/minecraft/class_1297;method_5696()Z"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ExperienceOrbVanishMixin": {
+        "playerTouch": "Lnet/minecraft/class_1303;method_5694(Lnet/minecraft/class_1657;)V",
+        "scanForEntities": "Lnet/minecraft/class_1303;method_31498()V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ItemEntityVanishMixin": {
+        "playerTouch": "Lnet/minecraft/class_1542;method_5694(Lnet/minecraft/class_1657;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/LivingEntityVanishMixin": {
+        "isPushable": "Lnet/minecraft/class_1309;method_5810()Z",
+        "pushEntities": "Lnet/minecraft/class_1309;method_6070()V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/MinecraftServerVanishMixin": {
+        "buildPlayerStatus": "Lnet/minecraft/server/MinecraftServer;method_49386()Lnet/minecraft/class_2926$class_2927;"
+      },
+      "com/gugas749/abysscore/mixin/vanish/PlayerAdvancementsVanishMixin": {
+        "award": "Lnet/minecraft/class_2985;method_12878(Lnet/minecraft/class_8779;Ljava/lang/String;)Z"
+      },
+      "com/gugas749/abysscore/mixin/vanish/PlayerListVanishMixin": {
+        "broadcast": "Lnet/minecraft/class_3324;method_14605(Lnet/minecraft/class_1657;DDDDLnet/minecraft/class_5321;Lnet/minecraft/class_2596;)V",
+        "broadcastSystemMessage(Lnet/minecraft/network/chat/Component;Ljava/util/function/Function;Z)V": "Lnet/minecraft/class_3324;method_43512(Lnet/minecraft/class_2561;Ljava/util/function/Function;Z)V",
+        "broadcastSystemToAllExceptTeam": "Lnet/minecraft/class_3324;method_14565(Lnet/minecraft/class_1657;Lnet/minecraft/class_2561;)V",
+        "broadcastSystemToTeam": "Lnet/minecraft/class_3324;method_14564(Lnet/minecraft/class_1657;Lnet/minecraft/class_2561;)V",
+        "placeNewPlayer": "Lnet/minecraft/class_3324;method_14570(Lnet/minecraft/class_2535;Lnet/minecraft/class_3222;Lnet/minecraft/class_8792;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/PlayerVanishMixin": {
+        "canBeSeenAsEnemy": "Lnet/minecraft/class_1657;method_33190()Z"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ServerCommonPacketListenerVanishMixin": {
+        "send(Lnet/minecraft/network/protocol/Packet;Lnet/minecraft/network/PacketSendListener;)V": "Lnet/minecraft/class_8609;method_52391(Lnet/minecraft/class_2596;Lnet/minecraft/class_7648;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ServerGamePacketListenerVanishMixin": {
+        "removePlayerFromWorld": "Lnet/minecraft/class_3244;method_52415()V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ServerLevelVanishMixin": {
+        "gameEvent(Lnet/minecraft/core/Holder;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/level/gameevent/GameEvent$Context;)V": "Lnet/minecraft/class_3218;method_32888(Lnet/minecraft/class_6880;Lnet/minecraft/class_243;Lnet/minecraft/class_5712$class_7397;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ServerPlayerVanishMixin": {
+        "broadcastToPlayer": "Lnet/minecraft/class_3222;method_5680(Lnet/minecraft/class_3222;)Z",
+        "die": "Lnet/minecraft/class_3222;method_6078(Lnet/minecraft/class_1282;)V"
+      },
+      "com/gugas749/abysscore/mixin/vanish/ShulkerBoxBlockEntityVanishMixin": {
+        "startOpen": "Lnet/minecraft/class_2627;method_5435(Lnet/minecraft/class_1657;)V",
+        "stopOpen": "Lnet/minecraft/class_2627;method_5432(Lnet/minecraft/class_1657;)V"
+      }
+    }
+  }
+}

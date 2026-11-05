@@ -1,0 +1,6 @@
+{
+  "chat_lock_enabled": true,
+  "help_webhook_enabled": false,
+  "help_webhook_url": "",
+  "vanish_see_level": "ADMIN"
+}
